@@ -1,0 +1,10 @@
+//check number is even without using arithematic or relational operator
+#include<stdio.h>
+void main()
+{
+    int num=14;
+    if(num & 0x1)
+    printf("odd\n");
+    else
+    printf("even\n");
+}
